@@ -1,11 +1,11 @@
 {
-  "name": "jwt-api",
+  "name": "current-project",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "devStart": "nodemon server.js",
-    "devStart2": "set PORT=4000 && nodemon server.js",
+    "devStartAuth": "nodemon authServer.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
