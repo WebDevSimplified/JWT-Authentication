@@ -1,5 +1,5 @@
 GET http://localhost:3000/posts
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiSmltIiwiaWF0IjoxNTY4NzU5ODEyLCJleHAiOjE1Njg3NTk4Mjd9.0i6Im2gKz7jj8wM7aZZzOPaBS_xHoZWAqBwnldn-lQQ
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiYmV0byIsImlhdCI6MTYxNTc4MTAwMCwiZXhwIjoxNjE1NzgxMDYwfQ.E1DR4WY8vFabZeHwFMxQt4wEFwyhpeuEoYrYyBDJBYs
 
 ###
 
@@ -16,7 +16,7 @@ POST http://localhost:4000/token
 Content-Type: application/json
 
 {
-  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiSmltIiwiaWF0IjoxNTY4NzU5OTIyfQ.RT6wszuCeFLwC_6ksmNMIELxiC5s-uRivfRxyZof5ag"
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiYmV0byIsImlhdCI6MTYxNTc4MDk4MH0.4d9klZWoXFtd2jW_v-sgLWymsIbjvvoikOOtL1-9M5A"
 }
 
 ###
@@ -25,5 +25,5 @@ POST http://localhost:4000/login
 Content-Type: application/json
 
 {
-  "username": "Jim"
+  "username": "beto"
 }
